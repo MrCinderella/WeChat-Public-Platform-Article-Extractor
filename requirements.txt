@@ -1,0 +1,21 @@
+# 公众号合集文章提取器 - 依赖列表
+
+# GUI 框架
+PySide6>=6.5.0
+
+# 网络请求
+requests>=2.28.0
+
+# HTML 解析
+beautifulsoup4>=4.11.0
+lxml>=4.9.0
+html5lib>=1.1.0
+
+# HTML 转 Markdown
+html2text>=2024.0.0
+
+# Excel 元数据表格导出
+openpyxl>=3.0.0
+
+# 打包 exe 时才需要，运行程序本身不需要
+pyinstaller>=6.0
